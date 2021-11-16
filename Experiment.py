@@ -25,7 +25,7 @@ pygame.display.set_icon(icon)
 # Player
 playerImg = pygame.image.load('player.png')
 playerX = 370
-playerY = 480
+playerY = 500
 playerX_change = 0
 playerY_change = 0
 
@@ -51,7 +51,7 @@ for i in range(num_of_enemies):
 
 bulletImg = pygame.image.load('bullet.png')
 bulletX = 0
-bulletY = 480
+bulletY = 500
 bulletX_change = 0
 bulletY_change = 10
 bullet_state = "ready"
